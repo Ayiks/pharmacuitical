@@ -1,0 +1,28 @@
+.data-table-wrapper{
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 30px;
+}
+table{
+  margin: 30px;
+}
+
+.p-datatable-custom {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1.2em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.p-datatable-custom th {
+  font-weight: bold;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.p-datatable-custom td {
+  text-align: center;
+  border: 1px solid #ddd;
+}
