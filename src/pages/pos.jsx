@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.css";
+import "../css/pos.css";
 
 const products = [
   { id: 1, name: "Product 1", price: 10 },
@@ -9,7 +9,7 @@ const products = [
   { id: 5, name: "Product 5", price: 50 },
 ];
 
-export default function App() {
+export default function Pos() {
   const [cartItems, setCartItems] = useState([]);
   const [search, setSearch] = useState("");
   const [selectedProduct, setSelectedProduct] = useState(null);

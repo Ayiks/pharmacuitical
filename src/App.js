@@ -8,6 +8,7 @@ import 'remixicon/fonts/remixicon.css';
 import Customer from './pages/Customer';
 import POS from './pages/Sales';
 import SalesPOS from './components/SalesPOS'
+import MedicineView from './pages/Medicine';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <StaffView /> */}
       {/* <Customer/> */}
       {/* <POS /> */}
-      <SalesPOS/>
+      {/* <SalesPOS/> */}
+      <MedicineView />
     </div>
   );
 }
